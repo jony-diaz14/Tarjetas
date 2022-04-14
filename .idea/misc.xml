@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/jony_/Documents/AndroidStudios/Tarjetas/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2115" />
+        <entry key="..\:/Users/jony_/Documents/AndroidStudios/Tarjetas/app/src/main/res/drawable/boton_card.xml" value="0.2115" />
+        <entry key="..\:/Users/jony_/Documents/AndroidStudios/Tarjetas/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2115" />
         <entry key="..\:/Users/jony_/Documents/AndroidStudios/Tarjetas/app/src/main/res/layout/activity_carga.xml" value="0.1" />
         <entry key="..\:/Users/jony_/Documents/AndroidStudios/Tarjetas/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/jony_/Documents/AndroidStudios/Tarjetas/app/src/main/res/layout/activity_practica.xml" value="0.25" />
