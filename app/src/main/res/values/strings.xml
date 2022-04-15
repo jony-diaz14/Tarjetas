@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Tarjetas</string>
+    <string name="jonathan_diaz">Jonathan Diaz</string>
+    <string name="nivel_1">Nivel 1</string>
+    <string name="ir_a_practicar">Ir a Practicar</string>
+    <string name="ir_a_practicar">Ir a Practicar</string>
+    <string name="ver_perfil">ver perfil</string>
+    <string name="practicar_las_tablas">Practicar las tablas</string>
+    <string name="todo">TODO</string>
 </resources>
