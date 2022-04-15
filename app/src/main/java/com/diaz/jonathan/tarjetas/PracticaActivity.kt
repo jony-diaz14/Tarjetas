@@ -3,6 +3,7 @@ package com.diaz.jonathan.tarjetas
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
@@ -13,12 +14,12 @@ class PracticaActivity : AppCompatActivity() {
     var factor1:Int = 0
     var factor2:Int = 0
     var producto:Int = 0
-    var RC = false
+    var respuestaC = false
 
     lateinit var tvFactor1:TextView
     lateinit var tvFactor2:TextView
     lateinit var etResultado:EditText
-    lateinit var btnCalcular:EditText
+    lateinit var btnCalcular:Button
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -33,10 +34,10 @@ class PracticaActivity : AppCompatActivity() {
                 Toast.makeText(this, "Dejaste el campo vacio", Toast.LENGTH_SHORT).show()
             }else{
                 //continuacion
-                RC = producto == strResultado.toInt()
+                respuestaC = producto == strResultado.toInt()
                 generarMultiplicaion()
                 val mostraR = Intent(this, ResultadoActivity::class.java)
-                mostraR.putExtra("correcto",RC)
+                mostraR.putExtra("correcto",respuestaC)
                 startActivity(mostraR)
             }
         }

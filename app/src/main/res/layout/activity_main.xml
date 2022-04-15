@@ -155,7 +155,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginBottom="24dp"
-                android:text="@string/ir_a_practicar"
+                android:text="ir a practica"
                 android:textColor="#5D4037"
                 app:layout_constraintBottom_toTopOf="@+id/btnPracticar"
                 app:layout_constraintStart_toStartOf="parent" />
@@ -166,7 +166,7 @@
                 android:layout_height="27dp"
                 android:layout_margin="8dp"
                 android:layout_marginBottom="12dp"
-                android:text="@string/practicar_las_tablas"
+                android:text="practicar las tablas"
                 android:textColor="#616161"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toTopOf="@+id/textView6"
