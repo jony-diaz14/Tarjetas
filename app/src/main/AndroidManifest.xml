@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Tarjetas">
         <activity
+            android:name=".ResultadoActivityO"
+            android:exported="false" />
+        <activity
+            android:name=".ResultadoActivityT"
+            android:exported="false" />
+        <activity
             android:name=".PracticaActivity"
             android:exported="false" />
         <activity

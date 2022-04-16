@@ -36,7 +36,7 @@ class PracticaActivity : AppCompatActivity() {
                 //continuacion
                 respuestaC = producto == strResultado.toInt()
                 generarMultiplicaion()
-                val mostraR = Intent(this, ResultadoActivity::class.java)
+                val mostraR = Intent(this, ResultadoActivityO::class.java)
                 mostraR.putExtra("correcto",respuestaC)
                 startActivity(mostraR)
             }

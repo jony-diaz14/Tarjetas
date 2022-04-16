@@ -14,8 +14,8 @@ class ResultadoActivity : AppCompatActivity() {
         animView = findViewById(R.id.animation_view)
 
         val extras = intent.extras
-        val RC = extras!!.getBoolean("correcto")
-        if (RC){
+        val respuestaC = extras!!.getBoolean("correcto")
+        if (respuestaC){
             animView.setAnimation(R.raw.bien)
         }else{
             animView.setAnimation(R.raw.wrong_bici)
